@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@mipmap/home"
+            android:title="HOME" />
+
+        <item android:title="HAVE FUN WITH ENGLISH">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/Englishquiz"
+                        android:icon="@mipmap/quiz"
+                        android:title="English quiz" />
+                    <item
+                        android:id="@+id/Correctword"
+                        android:icon="@mipmap/correct"
+                        android:title="Correct word" />
+                    <item
+                        android:id="@+id/Highscores"
+                        android:icon="@mipmap/ketqua"
+                        android:title="High scores" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="THÔNG TIN NHÓM">
+            <menu>
+                    <item
+                        android:id="@+id/Thongtin"
+                        android:icon="@mipmap/info"
+                        android:title="Xem thông tin" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>
